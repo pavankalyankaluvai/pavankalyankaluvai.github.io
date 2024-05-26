@@ -1,0 +1,204 @@
+
+.header{
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#hero{
+    height: 80vh;
+    width: 100vw;
+}
+
+
+#name-container{
+    color: white;
+    position: relative;
+    top: 40%;
+    left:10%;
+    height: fit-content;
+    width: 50%;
+    line-height: 1;
+}
+
+.about{
+    color: white;
+    padding-left: 10%;
+
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text{
+    padding-left: 50px;
+    width: 50%;
+}
+
+.about-pic{
+    width: 50%;
+    background-color: white;
+    height: 67vh;
+}
+
+.about-description{
+    height: fit-content;
+    width: 50%;
+    text-align: justify;
+}
+.skills{
+    color: white;
+    padding: 10%;
+
+    height: 50vh;
+    width: 100vw;
+}
+
+.skill-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.skill-card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    /* text-align: center; */
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    font-size: 25px;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.projects{
+    color: white;
+    padding: 10%;
+
+    height: 70vh;
+    width: 100vw;
+}
+
+.project-items{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0 120px;
+    align-content: center;
+}
+
+
+.name{
+    font-size: 45px;
+}
+.tag-line{
+    font-size: 20px;
+    width: fit-content;
+    padding: 4px;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.5s;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 75%;
+  }
+.navbarNav{
+    margin-left: 70%;
+}
+
+.contact{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.contact-form{
+
+    margin-bottom: 20px;
+}
+
+.social-media{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px 450px;
+
+}
+
+.contact-heading{
+    padding: 0 450px;
+}
+.project-heading, .skill-heading{
+padding: 10px 520px;
+}
+
+  

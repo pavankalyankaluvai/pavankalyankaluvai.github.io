@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+.banner {
+    position: relative;
+    background: url('../image/GettyImages-1281937431-min.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+    font-size:1 em ;
+    text-align: center;
+}
+
+.why-us{
+    font-size: 11px;
+    padding: 25px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.item-card{
+    background: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.heading{
+    font-size: 15px;
+
+}
+
+.question{
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    /* margin: 10px 0; */
+}
+
+.cta-button {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+

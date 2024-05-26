@@ -1,0 +1,140 @@
+
+body {
+
+  
+    font-family: 'Roboto', 'sans-serif';
+
+  }
+  html {
+    overflow: hidden;
+  }  
+.full-page {
+    width: 100vw;
+    height: 100vh;
+}
+header h1{
+    font-size:45px;
+}
+
+p{
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size:15px;
+    font-weight: 320;
+   
+}
+h1{
+    padding-left: 35%;
+    padding-right: 35%; 
+}
+
+/* hover underline Navbar*/ 
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.5s;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 75%;
+  }
+
+/* making navbar center*/
+
+  @media (min-width: 768px) {
+    .navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+    .navbar-right{
+        position:absolute;
+        right:10%
+    }
+  }
+
+  .btn-sml{
+    font-size:13px;
+  }
+img{
+    margin-bottom: 1%;
+}
+
+.content{
+    padding-bottom: 10%;
+}
+.txt-field{
+  
+  height: 52px;
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20px;
+  
+
+  
+ 
+}
+.txt-field >input:focus{
+  background:transparent;
+  outline:none !important;
+  border: none;
+  box-shadow: none;
+  color: white;
+
+}
+
+.txt-field > input{
+  border-color: white;
+  border: transparent;
+  outline: transparent;
+  background: transparent;
+  color: white;
+  
+}
+
+.search-area{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.search-area>button{
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.dropdown > button{
+  height: 49px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: none;
+}
+
+.dropdown.dropbtn:active{
+  background-color: rgb(227, 19, 147);
+}
+
+
+
+.dropdown:hover .dropbtn {background-color: rgb(227, 19, 147);}
+
